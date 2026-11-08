@@ -1,0 +1,32 @@
+YouTubeDownloader - third-party components
+
+yt-dlp 2026.10.26: https://github.com/yt-dlp/yt-dlp/releases/tag/2026.10.26
+Source: https://github.com/yt-dlp/yt-dlp/tree/2026.10.26
+The yt-dlp source project is Unlicense, but its standalone Windows executable
+is a PyInstaller build and includes GPLv3+ licensed code. The combined binary
+is consequently distributed under GPLv3+. See its release and licensing
+documentation, including third-party notices and corresponding source:
+https://github.com/yt-dlp/yt-dlp/blob/2026.10.26/README.md#licensing
+The release's THIRD_PARTY_LICENSES.txt is included in licenses/.
+Corresponding source: https://github.com/yt-dlp/yt-dlp/tree/2026.10.26 and the
+source code for its documented bundled dependencies. Obtain and retain the
+exact sources used for any redistributable build.
+
+FFmpeg for yt-dlp, autobuild-2026-09-30-18-57 (GPL build):
+https://github.com/yt-dlp/FFmpeg-Builds/releases/tag/autobuild-2026-09-30-18-57
+Build recipes and source information: https://github.com/yt-dlp/FFmpeg-Builds
+https://github.com/FFmpeg/FFmpeg/commit/5a54fcf75e
+See FFmpeg-LICENSE.txt for GPLv3.
+
+Deno 2.9.8, MIT:
+https://github.com/denoland/deno/releases/tag/v2.9.8
+https://github.com/denoland/deno/tree/v2.9.8
+See Deno-LICENSE.txt.
+
+Components are extracted into the user's LocalAppData/YouTubeDownloader
+directory at first use. No administrator rights are requested.
+
+The MIT license in this repository applies only to the original GUI wrapper
+and build/documentation files, not to these bundled third-party binaries.
+Before distributing a build, verify the exact versions, all license notices,
+and source/corresponding-source obligations for every included component.
